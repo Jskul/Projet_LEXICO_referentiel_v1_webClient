@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/**
+ * Style sheet for forms elements.
+ */
+
+.form-container div {
+	/*width: 100%;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	/*clear: both;*/
+	padding: 5px;
+}
+
+fieldset {
+	border: 1px solid #808080;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+legend {
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #808080;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label {
+	font-weight: bold;
+	color: #808080;
+	text-align: left;
+}
+
+.form-field,
+.form-submit {
+	float: right;
+}
+
+input[type=button],
+input[type=submit],
+button[type=submit]
+ {
+	background-color: #FFFFFF;
+	border: 1px solid #808080;
+	padding: 3px 5px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	font-weight: bold;
+	color: #808080;
+	cursor: pointer;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+input.button-disabled {
+	background-color: #C0C0C0;
+	color: #FFFFFF;
+}
+
+input[type=button]:disabled,
+input[type=submit]:disabled {
+	background-color: #E0E0E0;
+	border-color: #C0C0C0;
+	cursor: auto;
+}
+
+input[type=button].warn,
+input[type=submit].warn
+ {
+	background-color: #FFFFFF;
+	border: 1px solid #FF0000;
+	color: #FF0000;
+}
+
+input[type=button].warn:hover,
+input[type=submit].warn:hover,
+input.button-disabled {
+	background-color: #E00000;
+	color: #FFFFFF;
+}
+
+input[type=button].warn:disabled,
+input[type=submit].warn:disabled {
+	background-color: #E0E0E0;
+	border-color: #C0C0C0;
+}
+
+#buttons-bar {
+	float: right;
+}

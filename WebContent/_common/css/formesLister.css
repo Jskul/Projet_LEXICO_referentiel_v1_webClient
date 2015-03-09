@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/**
+ * Style sheet for formesLister.jsp page.
+ */
+
+#result-main-toolbar div {
+	float: right;
+}
+
+#no-result-placeholder {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}

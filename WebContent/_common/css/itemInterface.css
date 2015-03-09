@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/**
+ * Style sheet for items interfaces.
+ */
+
+#item-main-attributes-left,
+#item-orthographic-attributes-left {
+	width: 45%;
+	margin: 5px;
+	float: left;
+}
+
+#item-main-attributes-right,
+#item-orthographic-attributes-right {
+	width: 45%;
+	margin: 5px;
+	float: right;
+}
+
+div.label-control-container {
+	margin: 5px auto;
+}
+
+.label-control-container label {
+	float: left;
+}
+
+.label-control-container input,
+.label-control-container select {
+	float: right;
+}
+
+.label-control-container input {
+	width: 170px;
+}
+
+.label-control-container select {
+	width: 176px;
+}
+
+div.label-control-container div.clear {
+	visibility: hidden;
+	margin: 0px;
+	padding: 0px;
+}

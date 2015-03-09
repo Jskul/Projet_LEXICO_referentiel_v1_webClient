@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/**
+ * Style sheet for elements shared by all pages.
+ */
+
+body {
+	background-color: #FFFFFF;
+	font-family: ""verdana, arial, times, lucida;
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000000;
+}
+
+nav {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	border: none;
+}
+
+#main-navigation-menu {
+	list-style: none;
+}
+
+#main-navigation-menu {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-navigation-menu > li {
+	display: inline-block;
+	background: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	width: 150px;
+	border: 2px solid #808080;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#main-navigation-menu > li > a {
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #808080;
+	text-decoration: none;
+}
+
+
+#main-navigation-menu > li:hover,
+#main-navigation-menu > li.main-navigation-menu-current {
+	background-color: #C0C0C0;
+}
+
+#main-navigation-menu > li:hover a,
+#main-navigation-menu > li.main-navigation-menu-current {
+	color: #FFFFFF;
+}
+
+#main-navigation-menu > li.main-navigation-menu-current:hover {
+	cursor: default;
+}
+
+#main-navigation-menu > li.main-navigation-menu-current:hover a {
+	color: #808080;
+	cursor: default
+}
+
+#main-navigation-menu > li.main-navigation-menu-disabled,
+#main-navigation-menu > li.main-navigation-menu-disabled:hover {
+	background-color: #E0E0E0;
+	border-color: #C0C0C0;
+	cursor: auto;
+}
+
+#main-navigation-menu li.main-navigation-menu-disabled a {
+	color: #FFFFFF;
+	cursor: default;
+}
+
+#main-navigation-menu > li#main-navigation-disconnect {
+	border: none;
+	cursor: auto;
+}
+
+li#main-navigation-disconnect > a {
+	font-variant: normal;
+}
+
+#main-navigation-menu > li#main-navigation-disconnect:hover {
+	background-color: #FFFFFF;
+}
+
+#main-navigation-menu > li#main-navigation-disconnect:hover a {
+	color: #000000;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: x-large;
+	font-variant: small-caps;
+	color: #808080;
+}
+
+h1.centered-title {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: xx-large;
+}
+
+#main-content {
+	
+}
+
+#main-content.full-width {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-content.three-quarter-width {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main-content.half-width {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+#error-message-container,
+#farewell-message-container {
+	text-align: center;
+}
+
+.placeholder {
+	margin-top: 7em;
+	font-size: 14pt;
+	font-style: italic;
+	color: #808080;
+	text-align: center;
+}*/
